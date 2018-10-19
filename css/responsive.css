@@ -1,0 +1,199 @@
+@media all and (max-width: 1024px) {
+    .home .content {
+        padding-top: 26%;
+    }
+
+    .home .content p {
+        font-size: 30px;
+        width: 71%;
+        margin-left: 15%;
+        margin-bottom: 15%;
+        margin-top: 10%;
+    }
+
+    .home .content a {
+        font-size: 30px;
+    }
+
+    .col-md-3,
+    .col-md-4,
+    .col-md-5 {
+        flex: none;
+        max-width: none;
+    }
+
+    .menu .menu-thumbnail img {
+        float: none;
+        width: 100%;
+        padding-right: 0;
+        padding-bottom: 10px
+    }
+
+    .team .col-md-3 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .team .col-md-3:nth-child(3n),
+    .team .col-md-3:nth-child(4n) {
+        padding-top: 50px;
+    }
+
+    .animation-2 .effect {
+        line-height: 475px;
+    }
+
+    .animation-2 .effect a i {
+        width: 120px;
+        height: 120px;
+        border: 3px solid white;
+        padding-top: 27px;
+        font-size: 60px;
+        border-radius: 50%;
+        background: white;
+        cursor: pointer;
+        color: black;
+    }
+
+    .details img {
+        max-width: 100%;
+    }
+
+    .details h3 {
+        font-size: 60px;
+    }
+
+    .details p {
+        font-size: 28px;
+        padding-bottom: 50px;
+    }
+
+    .details a {
+        font-size: 35px;
+        padding: 10px 132px;
+    }
+}
+
+
+@media all and (max-width: 667px) {
+    .home .content {
+        padding-top: 15%;
+    }
+
+    .home .content p {
+        margin-bottom: 10%;
+        font-size: 17px;
+        font-weight: 200;
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .home .content a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+        font-size: 16px;
+        letter-spacing: 3px;
+        border: 3px solid white;
+        border-radius: 5px;
+        padding: 12px 30px;
+    }
+
+    .video {
+        padding-top: 340px;
+    }
+
+    .menu .menu-thumbnail h3 {
+        padding-top: 10px;
+    }
+
+    .team .col-md-3 {
+        flex: none;
+        max-width: none;
+    }
+
+    .team .col-md-3:first-child {
+        padding-bottom: 50px;
+    }
+
+    .team .col-md-3:last-child .team-thumbnail {
+        height: 120%;
+    }
+
+    .team .team-thumbnail p {
+        margin-bottom: 42px;
+    }
+
+    .footer .social-link ul li {
+        padding: 0 15px;
+    }
+
+    .animation-2 .effect {
+        line-height: 265px;
+    }
+
+    .animation-2 .effect a i {
+        width: 80px;
+        height: 80px;
+        border: 3px solid white;
+        padding-top: 20px;
+        font-size: 40px;
+        border-radius: 50%;
+        background: white;
+        cursor: pointer;
+        color: black;
+    }
+
+    .details img {
+        max-width: 100%;
+        padding-top: 100px;
+    }
+
+    .details h3 {
+        font-size: 30px;
+    }
+
+    .details p {
+        word-spacing: 1px;
+        color: gray;
+        margin-top: -10px;
+        padding-bottom: 40px;
+        font-size: 18px;
+    }
+
+    .details a {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 18px;
+        letter-spacing: 3px;
+        border: 3px solid black;
+        border-radius: 5px;
+        padding: 10px 89px;
+        outline: none;
+    }
+
+    .modal .modal-body .select-day select,
+    .modal .modal-body .select-hour select,
+    .modal .modal-body .select-person select {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        float: none;
+        width: 260px;
+    }
+
+    .modal .modal-body .name input,
+    .modal .modal-body .phone input,
+    .modal .modal-body .order-now input {
+        margin-right: 0;
+        margin-left: 0;
+        float: none;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        width: 260px;
+    }
+
+    .menu .menu-thumbnail img {
+        width: 100%;
+        padding-right: 0;
+    }
+}

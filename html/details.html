@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Details</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+        crossorigin="anonymous">
+    <link href="../css/style.css" type="text/css" rel="stylesheet">
+    <link href="../css/responsive.css" type="text/css" rel="stylesheet">
+    <style>
+        .name h1 {
+            font-size: 40px;
+            padding: 20px 40px;
+            font-weight: 700;
+        }
+
+        .name i {
+            float: right;
+            margin-top: -71px;
+            font-size: 40px;
+            padding-right: 40px;
+        }
+
+        .name i:hover {
+            cursor: pointer;
+            color: gray;
+        }
+
+        .image {
+            background: url(../images/heading-bg.jpg);
+            text-align: center;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            color: white;
+        }
+
+        .image h1 {
+            font-size: 32px;
+            letter-spacing: 4px;
+            font-weight: 400;
+        }
+
+        .image p {
+            font-size: 16px;
+            color: gray;
+        }
+
+        .item {
+            padding-top: 50px;
+            text-align: center;
+        }
+
+        .item img {
+            max-width: 50%;
+            padding-right: 20px;
+        }
+
+        .item-lq h3 {
+            padding-top: 100px;
+            text-align: center;
+            letter-spacing: 3px;
+        }
+
+        .item-lq h4 {
+            text-align: center;
+            padding-bottom: 50px;
+        }
+
+        .item-lq .row img {
+            max-width: 100%;
+            padding-bottom: 20px;
+            padding-top: 20px;
+        }
+
+        .details {
+            text-align: center;
+            padding: 20px 20px;
+        }
+
+        .details img {
+            max-width: 50%;
+        }
+
+        .details h3 {
+            padding-top: 40px;
+            font-size: 40px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .details p {
+            word-spacing: 1px;
+            color: gray;
+            padding-bottom: 40px;
+        }
+
+        .details a {
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 18px;
+            letter-spacing: 3px;
+            border: 3px solid black;
+            border-radius: 5px;
+            padding: 10px 89px;
+            outline: none;
+        }
+
+        .details a:hover {
+            padding: 10px 32px;
+            cursor: pointer;
+            font-weight: 700;
+        }
+
+        @media all and (max-width: 667px) {
+            .col-4 {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+
+            .details img {
+                max-width: 100%;
+            }
+
+            .details h3 {
+                padding: 20px 0;
+                font-size: 30px;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+            }
+
+            .details p {
+                font-size: 15px;
+            }
+
+            .item img {
+                padding-right: 0;
+            }
+        }
+
+        @media all and (max-width: 1024px) {
+            .col-4 {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+
+            .item-lq h3 {
+                padding-top: 100px;
+                text-align: center;
+                letter-spacing: 3px;
+                font-size: 50px;
+            }
+
+            .item-lq h4 {
+                text-align: center;
+                padding-bottom: 50px;
+                font-size: 40px;
+            }
+
+            .details img {
+                max-width: 100%;
+            }
+
+            .item img {
+                padding-right: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="name">
+        <h1>Steak House</h1>
+        <i class="fas fa-cart-arrow-down"></i>
+    </div>
+    <div class="image">
+        <h1>DETAILS</h1>
+        <p>Curabitur at dolor sed felis lacinia ultricies sit amet vel sem. Vestibulum diam leo, sodales tempor lectus sed,
+            varius gravida mi.</p>
+    </div>
+    <div class="item">
+        <div class="container">
+            <div class="details">
+
+            </div>
+        </div>
+    </div>
+    <div class="item-lq">
+        <div class="container">
+            <h3>OTHERS</h3>
+            <div class="row">
+                <div class="col-4">
+                    <img src="../images/gallery-img2.jpg">
+                    <div class="title">
+                        <h4>Spicy Beef</h4>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <img src="../images/gallery-img3.jpg">
+                    <div class="title">
+                        <h4>Dinner</h4>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <img src="../images/gallery-img4.jpg">
+                    <div class="title">
+                        <h4>Seafood</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="footer">
+        <div class="background">
+            <div class="container">
+                <div class="title">
+                    <h3>FOLLOW US</h3>
+                </div>
+                <div class="social">
+                    <div class="social-link">
+                        <ul>
+                            <li>
+                                <a target="_blank" href="https://www.facebook.com/laptrinhvienio/">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://twitter.com/?lang=vi">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://www.instagram.com/">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://www.linkedin.com/">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://www.tumblr.com/">
+                                    <i class="fab fa-tumblr"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="back-top">
+                    <a href="index.html" class="scroll-top">
+                        <i class="fas fa-angle-double-left"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        $(document).ready(function () {
+            getData();
+        });
+
+        var price;
+
+        function getData() {
+            var url = new URL(window.location.href);
+            var code = url.searchParams.get('id');
+            if (code != null) {
+                $.ajax({
+                    method: 'GET',
+                    url: 'https://www.jasonbase.com/things/' + code + '.json',
+                    success: function (res) {
+                        var html = "<img src=\"" + res.image + "\">" +
+                            "<h3>" + res.title + "</h3>" +
+                            "<p>" + res.content + "</p>" +
+                            "<a>" + res.price + "</a>"
+                        $('.details').html(html)
+
+                        price = res.price;
+
+                        $('.details a').on("mouseover", function (e) {
+                            $('.details a').html("Add to Cart");
+                        });
+
+                        $('.details a').on("mouseout", function (e) {
+                            $('.details a').html(price);
+                        });
+                    },
+                    error: function (err) {
+                        console.log(err);
+                        window.alert('Lỗi');
+                    }
+                });
+            }
+        }
+    </script>
+</body>
+
+</html>
